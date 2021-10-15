@@ -299,3 +299,95 @@ h3 .signIn{
     width: 105px;
     height: 35px;
 }
+/* ########### comments section ########### */
+.comments{
+    padding-top: 20px;
+}
+.commetsHead{
+    display: flex;
+    align-items: center;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.sortBy{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.comment{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.commenterLogo{
+    width: 40px;
+    border-radius: 40px;
+}
+.comment input{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    border-bottom: 1px solid #e1d9d9;
+    padding-bottom: 3px;
+    background: transparent;
+}
+.commentInfo{
+    margin-left: 20px;
+}
+.nameAndDate{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.commenterName{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.commentPuplishDate{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #606060;
+    margin-left: 5px;
+}
+.singlecomment{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.commentInteractions{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.likeComment{
+    display: flex;
+    align-items: center;
+}
+.commentInteractions img{
+    width: 20px;
+}
+.dislikeComment img{
+    transform: rotate(180deg);
+    padding-bottom: 5px;
+}
+.commentInteractions button{
+    background: transparent;
+    border: none;
+    width: 40px;
+}
