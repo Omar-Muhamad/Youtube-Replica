@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;;
 }
 
 /* ########## Header ######### */
@@ -99,7 +99,7 @@
     color: #3a3adb;
 }
 
-h3{
+h3 .signIn{
     font-weight: 500;
     color: #3a3adb;
 }
@@ -113,4 +113,189 @@ h3{
 .container{
     width: 86%;
     margin: auto;
+    padding-top: 20px;
+}
+
+.content{
+    width: 980px;
+}
+
+.mainVideo{
+    margin-bottom: 15px;
+}
+
+.vidoeInteraction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1d9d9;
+}
+
+.videoTitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.views-date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #606060;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    
+
+}
+.views-date ul{
+    margin-left: 25px;
+}
+
+.like-share{
+    display: flex;
+    align-items: center;
+}
+.like{
+    width: 80px;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.like img{
+    width: 24px;
+}
+
+.dislike{
+    width: 80px;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.dislike img{
+    width: 24px;
+    transform: rotate(180deg);
+}
+
+.share{
+    width: 90px;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+.share img{
+    width: 24px;
+}
+
+.save{
+    width: 90px;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+.save img{
+    width: 24px;
+}
+.report{
+    width: 40px;
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+
+.report img{
+    width: 18px;
+}
+
+.discribtion{
+    padding: 14px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1d9d9
+}
+.channelLogo{
+    display: flex;
+    align-items: flex-start;
+
+}
+.channelLogo img{
+    width: 45px;
+    border-radius: 45px;
+}
+
+.discribtionInfo{
+    padding: 0 15px;
+    padding-top: 7px;
+}
+.channelName{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.subscribers{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #606060;
+}
+.describtion{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 10px auto;
+    width: 600px;
+}
+.showMore{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #606060;
+}
+.subscribe{
+    padding: 7px;
+}
+.subscribe button{
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #cf0101;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 2px;
+    width: 105px;
+    height: 35px;
 }
