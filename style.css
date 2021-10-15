@@ -114,6 +114,7 @@ h3 .signIn{
     width: 86%;
     margin: auto;
     padding-top: 20px;
+    display: flex;
 }
 
 .content{
@@ -390,4 +391,43 @@ h3 .signIn{
     background: transparent;
     border: none;
     width: 40px;
+}
+
+/* ########## side bar ############# */
+
+.sideBar{
+    margin-left: 25px;
+}
+.suggestionVideo{
+    display: flex;
+    margin-bottom: 5px;
+}
+.suggestionVideo a img{
+    width: 170px;
+}
+.sVideoInfo{
+    margin-left: 10px;
+}
+.sVideoTitle{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.sChannelName{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #606060;
+}
+.sViews-Date{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #606060;
+    display: flex;
+    align-items: center;
+}
+.sViews-Date ul{
+    margin-left: 20px;
 }
